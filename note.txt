@@ -1,0 +1,124 @@
+======== JAVA SCRIPT :v ============
+Js itu kek yang ngatur web kita agar lebih interaktif,
+pemakaiannya juga kek Css gitu , ada inline, embed, sama eksternal
+ya kalo inline brarti antara di taro di tag head atau body gitu
+nah kalo embed itu sekalian di tag html nya misal kek onclick atau apa gitu,
+gatau kebalik ngga sama inline akwaoko gitu dah pokoknya
+kalo eksternal ya udah pasti code nya kepisah sama html nya
+jadi ntar di html nya ada pemanggilann kek
+ 
+<script src="kode-program.js"></script>
+
+gituu, tar direksi nya harus bener bener ke file js nya
+
+# di part 2, itu kan ada alert, document aama inner ya , dah gua rangkum aja
+
+-Fungsi console.log() untuk menampilkan output ke console Javascript;
+-Fungsi alert() untuk menampilkan output ke jendela dialog;
+-Fungsi document.write() untuk menulis output ke dokumen HTML;
+-Atribut innerHTML untuk menampilkan output ke elemen HTML yang lebih spesifik.
+
+#part 3 yang awal itu cara buat variabel, terus kek pemanggilannya juga
+jadi kek var (nama variabel) = "(nilainya)";, nah buat pemanggilannya bisa pake
+-Fungsi console.log() menampilkan output ke console javascript;
+-Fungsi document.write() menampilkan output ke dokumen HTML;
+-dan Fungsi alert() menampilkan output ke jendela dialog.
+
+@ mengisi ulang variabel,karna variabel pan sifatnya mutable, dimana yang artinya nilai
+var tersebut bisa diubah
+
+Contoh:
+// mula-mula kita buat variabel dengan isi seperti ini
+var age = 18;
+// lalu kita isi ulang
+age = 21;
+
+Kenapa saat mengisi ulang nilai variabel tidak menggunakan kata kunci var?
+Karena kata kunci var dibutuhkan saat membuat variabel saja. Sedangkan untuk mengisi ulang, kita cukup tulis seperti di atas.
+Apabila kita menggunakan kata kunci var, berarti jadinya kita membuat variabel baru donk, bukan mengisi ulang.
+
+@ menghapus variabel
+Contoh:
+
+bookTitle = "Belajar Pemrograman Javascript";
+delete bookTitle;
+
+Maka variabel bookTitle akan menghilang dari memori.
+Penghapusan variabel hanya bisa dilakukan pada variabel yang dibuat tanpa awalan. Sedangkan variabel yang dibuat dengan kata kunci var dan let akan dihapus otomatis.
+
+@ mengenali tipe data
+String (teks)
+Integer atau Number (bilangan bulat)
+Float (bilangan Pecahan)
+Boolean
+Object
+
+js tuh karna sifat nya dynamic typing jadi kita gaperlu nulis
+tipe datanya pas buat variabel nya tuh beda ama c,c++, atau java karena kalo 
+mereka itu static typing
+
+cara ngenalinnya nih biasanya kalo teks atau string itu diapit ama tanda petik
+kalo number ya gamake petik, kalo boolean itu nilainya cuma true atau ngga false
+dahh cuma dua itu doang
+
+rulee penulisan variabel
+
+-penamaan variabel gabole make angka didepannya, tapi kalo setelahnya boleh
+ex: var nama123="rizki";
+-penamaan var bolehh make underscore di awal
+ex: var _nama="rizki";
+-penamaan var kalo bisa pake camelCase kalo terdiri dari 2 suku kata
+ex: var fullName="rizki";
+-bebas si yang ini mah, cuma rata rata kalo nama variabel bagusnya pake inggris bejir, padahal mah pake apa aja bisa
+ex: var fullName="rizki";
+
+#part4
+@ dialog alert
+penggunaan alert() bisa di combine atau dipakaikan pada atribut button dengan syarat
+harus ada eventListenernya, misal disini kita makenya onclick
+
+@dialog confirm
+kalo confirm() mirip kek percabangan si pengembalian nilainya ya antara true atau false
+
+@dialog prompt
+dialog prompt disini bisa nerima inputan dari user, dan pengembalian nilainya ya berupa iputan user tadi
+
+@penggunaan dari ketiga dialog di atas
+- Saat kita hanya ingin menampilkan informasi saja, maka gunakan alert().
+- Saat kita ingin jawaban konfirmasi dari pengguna, maka gunakan confirm().
+- dan apabila kita ingin mengambil data teks dari pengguna, maka gunakan prompt().
+
+#part5
+Operator adalah simbol yang digunakan untuk melakukan operasi pada suatu nilai dan variabel.
+Operator dalam pemrograman terbagi dalam 6 jenis:
+
+1. Operator aritmatika;
+	untuk simbol nya kek biasa tambah ya plus, kali ya bintang, dsb
+2. Operator Penggabungan Teks
+	kuncinya jika nilai nya diapit petik maka itu string kan, kalo tipe number baru bisa dipakein
+	aritmetika, tapi kalo salah satunya number trus angka lainnya string , itu masi bisa di operasiin selama ga make pluss
+3. Operator Penugasan (Assignment);
+	Apa bedanya dengan operator penugasan dengan operator aritmatika?
+	Operator aritmatika hanya melakukan operasi aritmatika saja, 
+	sedangkan operator penugasan… ia melakukan operasi aritmatika dan juga pengisian.
+	ex : var score =100;
+	score += 5;
+	score = 105 
+	nah brarti ntar nilai score nya ditambah 5 saat mengoutput
+4. Opeartor relasi atau perbandingan;
+	simbol didalemnya ya kek = sama dengan, kurang dari <, dsb, outputnya 
+	ya kalo ga true ya false
+5. Operator Ternary;
+	sering dipake si kek ini kan dipake buat percabangan if else gitu
+	misal kek (variabel_pertanyaan) ? (true) : false ;
+
+#part6 percabangan
+@if itu misal ada satu blok doang
+
+@if else itu ada lebih dari satu blok
+
+@if els if itu misal lebih dari dua blok
+
+@switch case itu apa ya kek sama aja sama if else, cuma lebih ke perbandiangan antara case yang satu dengan yang lainnya
+
+@nested itu if didalam if jadi mirip kek 2x pengecekan
