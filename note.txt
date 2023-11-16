@@ -122,3 +122,40 @@ Operator dalam pemrograman terbagi dalam 6 jenis:
 @switch case itu apa ya kek sama aja sama if else, cuma lebih ke perbandiangan antara case yang satu dengan yang lainnya
 
 @nested itu if didalam if jadi mirip kek 2x pengecekan
+
+#part7 Loop
+ada counted ama noncounted
+
+@counted
+    - For ,Kondisi ini akan menentukan:
+        Hitungan akan dimulai dari 0 (i = 0);
+        Hitungannya sampai berapa? Sampai i < 10;
+        Lalu di setiap perulangan i akan bertambah +1 (i++).
+        Variabel i pada perulangan for berfungsi untuk menyimpan nilai hitungan.
+
+        Jadi setiap perulangan dilakukan nilai i akan selalu bertambah satu. Karena kita menentukannya di bagian i++.
+    - Foreach,
+        Perulangan foreach biasanya digunakan untuk mencetak item di dalam array.
+        Perulangan ini termasuk dalam perulangan counted loop, karena jumlah perulangannya akan dituentukan oleh panjang dari array.
+@uncounted
+    - While, singkatnya sesuai contoh sebelumnya
+                Coba perhatikan blok kode while:
+
+            while(ulangi){
+                counter++;
+                ulangi = confirm("Apakah anda mau mengulang?");
+            }
+            Di sana… Perulangan akan terjadi selama variabel ulangi brenilai true.
+
+            Lalu kita menggunakan fungsi confirm() untuk menampilkan dialog konfirmasi.
+
+            Selama kita memilih Ok pada dialog konfirmasi, maka variabel ulangi akan terus bernilai true.
+
+            Tapi kalau kita pilih Cancel, maka variabel ulangi akan bernilai false.
+
+            Saat variabel ulangi bernilai false, maka perulangan akan dihentikan.
+
+    - Do while, Perulangan do/while akan melakukan perulangan sebanyak 1 kali terlebih dahulu, lalu mengecek kondisi yang ada di dalam kurung while.
+                Jadi perbedaanya:
+                Perulangan do/while akan mengecek kondisi di belakang (sesudah mengulang), 
+                sedangkan while akan mencek kondisi di depan atau awal (sbelum mengulang).
