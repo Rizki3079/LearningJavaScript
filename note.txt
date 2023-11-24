@@ -159,3 +159,12 @@ ada counted ama noncounted
                 Jadi perbedaanya:
                 Perulangan do/while akan mengecek kondisi di belakang (sesudah mengulang), 
                 sedangkan while akan mencek kondisi di depan atau awal (sbelum mengulang).
+
+    @part8 Array
+    Array merupakan struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat.
+Setiap data dalam Array memiliki indeks, sehingga kita akan mudah memprosesnya. dan setiap indeks nya dimulai dari angka nol
+
+- isi data ke dalam array
+var products = ["Flashdisk", "SDD", "Monitor"];
+
+jika di console kita langsung tuliskan products yang nanti nilai kembalinya adalah data yang ada di dalam index tersebut
