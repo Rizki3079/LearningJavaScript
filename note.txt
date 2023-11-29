@@ -167,4 +167,4 @@ Setiap data dalam Array memiliki indeks, sehingga kita akan mudah memprosesnya. 
 - isi data ke dalam array
 var products = ["Flashdisk", "SDD", "Monitor"];
 
-jika di console kita langsung tuliskan products yang nanti nilai kembalinya adalah data yang ada di dalam index tersebut
+jika di console kita langsung tuliskan products yang nanti nilai kembalinya adalah data yang ada di dalam index tersebut .
